@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-container container-child">
+            <div class="center">
+                <h2 class="text">Sign In</h2>
+                <div class="logo">
+                    <img id="f-logo" src="https://cdn-icons-png.flaticon.com/512/20/20837.png" alt="facebook-logo">
+                </div>
+                <div class="logo">
+                    <img id="g-logo"  src="https://cdn-icons-png.flaticon.com/512/2111/2111483.png" alt="googleplus-logo">
+                </div>
+                <div class="logo">
+                    <img id="in-logo" src="https://cdn-icons-png.flaticon.com/512/3128/3128219.png" alt="linkedin-logo">
+                </div>
+                <form method="post">
+                    <div class="mail" class="text">
+                        <input class="input-form" type="email" id="mail" name="mail" placeholder="Example@gmail.com"
+                            required>
+                    </div>
+                    <div class="password" class="text">
+                        <input class="input-form" type="password" id="pass" name="pass" placeholder="Password" required>
+                    </div class="text">
+                    <p>Forgot your password?</p>
+                    <button id="login-button" type="submit" value="Submit">Sign In</button>
+                </form>
+            </div>
+        </div>
+        <div class="signUp-container container-child">
+            <div class="center">
+                <h2>Sign Up</h2>
+                <p>Sign up here if you don't have account</p>
+                <button id="signUp-button" type="submit">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

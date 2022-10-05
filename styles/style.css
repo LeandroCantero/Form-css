@@ -1,0 +1,131 @@
+html,
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 10px 10px 5px #949494;
+    border-radius: 10px;
+    overflow: auto;
+}   
+
+.login-container {
+    width: 400px;
+    height: 500px;
+    text-align: center;
+}
+
+.signUp-container {
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    background-color: #57cad1;
+    color: white;
+    border: none;
+}
+
+.signUp-container h2 {
+    font-size: 35px;
+    margin: 0;
+}
+.signUp-container p {
+    margin-top: 20px;
+    margin: 10px 0;
+    font-weight: lighter;
+}
+
+.signUp-container button{
+    margin-top: 20px;
+    line-height: 50px;
+}
+
+.container-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container h2 {
+    margin: 10px 0px;
+    font-size: 35px;
+}
+
+.logo {
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 25px;  
+    border: 1px solid #57cad1;
+    border-radius: 50%; 
+}
+
+.logo img{
+    display: block;
+    width: 20px;
+    height: 20px;    
+}
+
+form {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#login-button {
+    line-height: 35px;
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    background-color: #82d4dd;
+    color: white;
+}
+
+#login-button:hover {
+    cursor: pointer;
+    background-color: #6eb3bb;
+    transition: 0.3s;
+}
+
+#signUp-button {
+    margin-top: 20px;
+    line-height: 35px;
+    width: 160px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #57cad1;
+    color: white;
+}
+
+#signUp-button:hover {
+    cursor: pointer;
+    border: 0px solid #57cad1;
+    background-color: #6eb3bb;
+    transition: .3s;
+}
+
+.input-form{
+    margin-bottom: 20px;
+    padding-left: 20px;
+    background-color: #ededef;
+    border: none;
+    width: 300px;
+    height: 50px;
+    text-align: left;
+    border-radius: 10px;
+}
+
